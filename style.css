@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+
+}
+
+.header-bar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo>img{
+    height: 40px;
+    width: 40px;
+}
+
+.logo>p{
+    text-shadow: 1px 6px #9b9b9b;
+}
+
+.nav-bar{
+    width: 400px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-bar>a{
+    width: 730px;
+    text-align: center;
+}
+
+.nav-horizontal{
+    background-color: rgb(14, 1, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-horizontal>a{
+    padding: 10px 5px;
+    color: white;
+}
+
+.content{
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    display: grid;
+    background: radial-gradient(rgba(8, 0, 0, 0.726), rgba(2, 2, 48, 0.151)),url(https://uploads-ssl.webflow.com/6098f9010b81b39fb327df3c/6098f9010b81b31cd927df48_image%20here.png);
+    background-repeat: repeat-x;
+}
+
+.content>p{
+    width: 800px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    height: 300px;
+    width: 200px;
+    margin: 20px;
+}
+
+.card-img{
+    height: 150px;
+    width: 200px;
+    opacity: 0.1;
+}
+
+.card-desc{
+    text-align: center;
+}
+
+.card:hover>.card-img{
+    opacity: 1;
+    transition: opacity 1s;
+    transform: scaleY(1.5);
+}
